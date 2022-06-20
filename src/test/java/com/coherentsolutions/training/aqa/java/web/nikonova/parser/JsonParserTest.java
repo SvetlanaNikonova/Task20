@@ -45,7 +45,7 @@ public class JsonParserTest {
         });
     }
 
-    @AfterClass()
+    @AfterClass
     public void clearFolder() {
         Arrays.stream(new File("src/main/resources").listFiles()).forEach(File::delete);
     }

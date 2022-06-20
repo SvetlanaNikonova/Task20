@@ -56,7 +56,7 @@ public class CartTest {
         RealItem phone = new RealItem();
         phone.setName("Samsung");
         phone.setPrice(price2);
-        phone.setWeight(.200);
+        phone.setWeight(200);
         cart.addRealItem(phone);
 
         double totalAfterAddItem = cart.getTotalPrice();
@@ -68,7 +68,7 @@ public class CartTest {
         sa.assertAll();
     }
 
-    @Test(groups = {"includeGroups"})
+    @Test(groups = {"includeCarAndPhoneGroups"})
     public void checkTotalAfterItemRemove() {
 
         double price1 = 300;

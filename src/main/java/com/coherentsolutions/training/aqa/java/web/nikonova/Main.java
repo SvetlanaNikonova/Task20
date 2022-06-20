@@ -1,3 +1,5 @@
+package com.coherentsolutions.training.aqa.java.web.nikonova;
+
 import com.coherentsolutions.training.aqa.java.web.nikonova.parser.JsonParser;
 import com.coherentsolutions.training.aqa.java.web.nikonova.parser.Parser;
 import com.coherentsolutions.training.aqa.java.web.nikonova.shop.Cart;
