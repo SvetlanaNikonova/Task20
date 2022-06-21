@@ -18,12 +18,5 @@ public class RealItemTest {
         car.setWeight(weight);
 
         Assert.assertEquals(weight, car.getWeight());
-        /*
-        BigDecimal expectedResult = new BigDecimal(200);
-        RealItem realItem = new RealItem();
-
-        realItem.setWeight(expectedResult.doubleValue());
-        assertEquals(expectedResult.doubleValue(), realItem.getWeight(), "Weight is mismatched");
-    }*/
     }
 }
