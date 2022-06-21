@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name = "GroupsTest">
+    <test name = "Test2">
+        <groups>
+            <run>
+                <exclude name="includeCarAndPhoneGroups"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.coherentsolutions.training.aqa.java.web.nikonova.shop.CartTest"/>
+        </classes>
+    </test>
+</suite>
